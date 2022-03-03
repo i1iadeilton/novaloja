@@ -15,7 +15,7 @@ public class Order {
 	
 	private List<OrderItem> items = new ArrayList<OrderItem>();
 	
-	private Order() {
+	private Order(){
 	}
 
 	public Order(Date moment, OrderStatus status, Client client) {
